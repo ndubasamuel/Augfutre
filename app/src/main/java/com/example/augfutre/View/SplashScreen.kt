@@ -35,7 +35,7 @@ fun SplashScreen(navController: NavController) {
         scale.animateTo(
             targetValue = 0.5f,
             animationSpec = tween(
-                durationMillis = 500,
+                durationMillis = 3000,
                 easing = {
                     overshootInterpolator.getInterpolation(it)
                 }
@@ -51,7 +51,7 @@ fun SplashScreen(navController: NavController) {
     ) {
         Image(
             painter = painterResource(id = R.drawable.furniture_logo),
-        contentDescription = "Logo",
+        contentDescription = "Augfuture: Test within your space",
             modifier = Modifier.scale(scale.value)
         )
     }
