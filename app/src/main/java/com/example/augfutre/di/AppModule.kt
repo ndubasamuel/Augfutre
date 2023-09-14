@@ -1,4 +1,4 @@
 package com.example.augfutre.di
 
-object AppModule {
+class AppModule {
 }
